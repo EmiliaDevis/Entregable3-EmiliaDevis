@@ -13,6 +13,8 @@ header {
 }
 #navbar{
     background-color: #f5f4f4;
+    background-color: #080200;
+    color: #f5f4f4;
 }
 #logoeberdevis {
     display: flex;
@@ -24,6 +26,8 @@ header {
     text-decoration:none
     top 0;
     margin-left:auto;
+    background-color: #080200;
+    color: #f5f4f4;
 }
 .menu {
     list-style: none;
@@ -118,7 +122,11 @@ h2 {
 .container {
     display: flex;
 } */
-
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px
+}
 .card-container {
     display: flex;
   }
