@@ -1,0 +1,18 @@
+$form-background-color: #f9f9f9;
+$form-border-color: #ccc;
+$input-background-color: #fff;
+$input-border-color: #ddd;
+$button-background-color: #5cb85c;
+$button-text-color: #fff;
+
+  @import "header";
+  @import "_body";
+  @import "_icono";
+  @import "_tarjetas.scss";
+  @import "_servicios";
+  @import "_productos";
+  @import "_nosotros";
+  @import "_footer";
+
+  
+  

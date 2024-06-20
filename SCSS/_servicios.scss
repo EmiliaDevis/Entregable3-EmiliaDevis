@@ -1,0 +1,35 @@
+.grid-container-servicios {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: 3fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 10px 10px 50px 10px;
+  
+  
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+  .video-service {
+    border-top: solid 2px #010508;
+  }
+  .presupuesto {
+  width:1000px ;
+  height:1000px;
+  }
+  
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    width: 80%;
+    max-width: 1200px;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}

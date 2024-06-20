@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    background: #f5f4f4;
+  }
+  
+#navbar {
+    background-color: #f5f4f4;
+  }
+
+  #logoeberdevis {
+    display: flex;
+    margin-right: auto;
+    height: 100px;
+    width: 105;
+  }
+  #navegacion-principal:hover {
+    display: flex;
+    text-decoration: none top 0;
+    margin-left: auto;
+  }
