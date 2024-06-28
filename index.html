@@ -95,28 +95,35 @@
     <h2> Nuestros servicios <h2>
         <img src="./imagenes/presupuesto.jpg" alt="Referencia de pedir un presupuesto" width="400px" height="200px">
         <strong>Pedinos un presupuesto, no dudes en contactarte!</strong>
-        <div class="form-container">
-          <h5>Solicitar Presupuesto</h5>
-          <form action="#" method="post" class="budget-form">
-            <div class="form-group">
-              <label for="name">Nombre:</label>
-              <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-              <label for="email">Correo Electrónico:</label>
-              <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-              <label for="phone">Teléfono:</label>
-              <input type="tel" id="phone" name="phone" required>
-            </div>
-            <div class="form-group">
-              <label for="details">Comentarios:</label>
-              <textarea id="details" name="details" rows="4" required></textarea>
-            </div>
-            <button type="submit" class="submit-btn">Enviar</button>
-          </form>
-        </div>
+        <div class="container">
+          <div class="object-fit-cover border rounded">
+            <section id="formularioturnos">
+              <form action="form.php" method="post"></form>
+              <div class="inputform">
+                <input class="form-control form-control-lg" type="text" placeholder="Nombre" aria-label="Nombre">
+              </div>
+              <div class="inputform">
+                <input class="form-control form-control-lg" type="text" placeholder="Apellido" aria-label="Apellido">
+              </div>
+              <div class="inputform">
+                <input class="form-control form-control-lg" type="text" placeholder="Telefono" aria-label="Telefono">
+              </div>
+              <div class="inputform">
+                <input class="form-control form-control-lg" type="text" placeholder="Email" aria-label="Email">
+              </div>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Servicios</option>
+                <option value="1">Servicio automotor general</option>
+                <option value="2">Problemas con el GNC</option>
+                <option value="3">Presupuesto de repuestos</option>
+              </select>
+              <div class="calendario">
+                <input type="date" class="form-control form-control-lg">
+              </div>
+              
+              <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Enviar</button>
+            </section>
+          </div>
         </div>
         <h3><br>Nuestros productos <br> </h3>
         <div class="card-container">

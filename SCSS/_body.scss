@@ -47,3 +47,23 @@ main {
   max-width: 1200px;
   margin: 0 auto;
 }
+#formularioturnos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "roboto-bold";
+  background-color: rgba(250, 251, 253, 0.6);
+}
+
+.form-select {
+  align-items: center;
+  font-family: "roboto-bold";
+  width: 400px;
+  margin-top: 10px;
+}
+
+.calendario {
+  align-items: center;
+  font-family: "roboto-bold";
+  margin-top: 10px;
+}

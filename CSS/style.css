@@ -25,14 +25,6 @@ header {
   margin-left: auto;
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
-  nav ul {
-    flex-direction: column;
-  }
-  nav ul li {
-    margin: 5px 0;
-  }
-}
 body {
   background-image: url(../imagenes/fondo.svg);
   text-decoration: none;
@@ -52,11 +44,6 @@ p {
   justify-content: center;
 }
 
-@media (max-width: 450px) {
-  body {
-    background-color: #010508;
-  }
-}
 * {
   padding: 0;
   margin: 0;
@@ -86,22 +73,27 @@ main {
   margin: 0 auto;
 }
 
-@media (min-width: 601px) and (max-width: 1499px) {
-  main section {
-    padding: 10px;
-  }
+#formularioturnos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "roboto-bold";
+  background-color: rgba(250, 251, 253, 0.6);
 }
-@media (min-width: 1569px) {
-  main {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  main section {
-    flex: 1;
-    min-width: 300px;
-    margin: 10px;
-  }
+
+.form-select {
+  align-items: center;
+  font-family: "roboto-bold";
+  width: 400px;
+  margin-top: 10px;
 }
+
+.calendario {
+  align-items: center;
+  font-family: "roboto-bold";
+  margin-top: 10px;
+}
+
 .whatsapp-icon {
   position: fixed;
   bottom: 20px;
@@ -135,26 +127,6 @@ main {
   text-align: center;
 }
 
-.form-container {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 400px;
-}
-
-h5 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.form-group {
-  margin-bottom: 15px;
-}
-
 label {
   display: block;
   margin-bottom: 5px;
@@ -185,33 +157,11 @@ textarea {
   background-color: #449d44;
 }
 
-.carousel-inner {
-  width: 1000px;
-  height: 1000px;
-}
-
 .fotofrentetaller {
   width: 1155px;
   height: 500px;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-  .card-container {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-@media (min-width: 481px) and (max-width: 600px) {
-  .card-container {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-@media (min-width: 601px) and (max-width: 767) {
-  .card-container {
-    flex-direction: column;
-  }
-}
 .grid-container-servicios {
   display: grid;
   grid-template-columns: repeat(3, 3fr);
@@ -234,24 +184,6 @@ textarea {
   height: 1000px;
 }
 
-@media only screen and (max-width: 700px) {
-  .grid-servicios-1 {
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
-  .grid-servicios-2 {
-    grid-column-start: 2;
-    grid-column-end: 8;
-    grid-row: 0 1;
-  }
-  .grid-servicios-3 {
-    grid-column-start: 5;
-    grid-column-end: 8;
-    grid-row: 2 3;
-  }
-}
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -273,23 +205,6 @@ textarea {
   height: 350px;
 }
 
-@media (max-width: 480px) {
-  .portada-productos {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-@media (min-width: 481px) and (max-width: 600px) {
-  .portada-productos {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-@media (min-width: 601px) and (max-width: 767) {
-  .portada-productos {
-    flex-direction: column;
-  }
-}
 #fotobebe {
   display: flex;
   gap: 10px;
