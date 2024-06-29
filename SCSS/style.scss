@@ -1,3 +1,23 @@
+$map: (
+  boton1:#3346FF,
+  boton2:#FF3333,
+  boton3:#42FF33
+
+);
+
+$colors: (
+  Instagram: #470147ee,
+  Facebook:rgba(9, 50, 87, 0.933),
+  Send-mail:rgba(201, 152, 6, 0.933)
+
+);
+
+@mixin tamano ($width, $height) 
+{
+  width:$width;
+  height:$height;
+}
+
 $form-background-color: #f9f9f9;
 $form-border-color: #ccc;
 $input-background-color: #fff;
@@ -13,6 +33,6 @@ $button-text-color: #fff;
   @import "_productos";
   @import "_nosotros";
   @import "_footer";
+  @import "_responsive"
 
-  
-  
+ 

@@ -2,7 +2,7 @@
     display: flex;
     flex: wrap;
     text-align: center;
-    width: 350px;
-    height: 350px;
+    @include tamano (350px, 350px)
   }
+
   

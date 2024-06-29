@@ -33,3 +33,45 @@
     display: block;
   }
 }
+#serviciosed {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+.box-servicios {
+  border: 2px double #020b55;
+  border-radius: 5px;
+  background-color: rgba(250, 251, 253, 0.6);
+  color: #0c0606;
+  font-size: 15px;
+  font-family: "roboto-regular";
+  text-align: center;
+  padding: 2%;
+  margin: 10px;
+  width: 1200px;
+}
+.servicioimg {
+  float: center;
+  width: 200px;
+  height: 200px;
+}
+
+.instalacionimg {
+  float: center;
+  width: 200px;
+  height: 200px;
+}
+
+.repuestosimg {
+  float: center;
+  width: 200px;
+  height: 200px;
+}
+.parrafoindex {
+  margin-top: 10px;
+  font-size: 15px;
+  color: black;
+  font-size: 15px;
+  font-family: "roboto-regular";
+}

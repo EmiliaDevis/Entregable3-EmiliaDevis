@@ -15,8 +15,7 @@ header {
   #logoeberdevis {
     display: flex;
     margin-right: auto;
-    height: 100px;
-    width: 105;
+   @include tamano (100px,105px)
   }
   #navegacion-principal:hover {
     display: flex;
