@@ -1,6 +1,5 @@
 .portada-productos {
     display: flex;
-    flex: wrap;
     text-align: center;
     @include tamano (350px, 350px)
   }

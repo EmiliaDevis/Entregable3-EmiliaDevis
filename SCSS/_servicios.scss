@@ -1,6 +1,6 @@
 .grid-container-servicios {
     display: grid;
-    grid-template-columns: repeat(3, 3fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 3fr;
     column-gap: 10px;
     row-gap: 10px;
@@ -14,6 +14,8 @@
 }
   .video-service {
     border-top: solid 2px #010508;
+    width: 90%;
+
   }
   .presupuesto {
   width:1000px ;

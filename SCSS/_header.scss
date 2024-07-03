@@ -9,7 +9,7 @@ header {
   }
   
 #navbar {
-    background-color: #f5f4f4;
+    background-color: map-get($map: $colors, $key:backgrounds);
   }
 
   #logoeberdevis {

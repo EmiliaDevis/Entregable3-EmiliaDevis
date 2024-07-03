@@ -2,6 +2,9 @@
     .card-container {
       flex-direction: column;
       text-align: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
     }
   }
   
@@ -82,7 +85,7 @@
   @media only screen and (max-width: 700px) {
     .grid-servicios-1 {
       grid-column-start: 2;
-      grid-column-end: 5;
+      grid-column-end: 8;
       grid-row-start: 2;
       grid-row-end: 3;
     }
@@ -96,17 +99,17 @@
     .grid-servicios-3 {
       grid-column-start: 5;
       grid-column-end: 8;
-      grid-row: 2 3;
+      grid-row: 2 4;
     }
   }
   @media (max-width:768px){
 
   .container-fluid {
-    display: none;
+    grid-template-columns: 1fr;
   } 
 
 .box-servicios {
-  width: 500px;
+  width: 90%;
   text-align: center;
 }
 .fotofrentetaller {

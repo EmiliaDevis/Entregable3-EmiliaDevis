@@ -8,10 +8,6 @@ header {
   background: #f5f4f4;
 }
 
-#navbar {
-  background-color: #f5f4f4;
-}
-
 #logoeberdevis {
   display: flex;
   margin-right: auto;
@@ -71,6 +67,9 @@ main {
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #formularioturnos {
@@ -105,6 +104,8 @@ main {
 .card-container {
   display: flex;
   padding: 100px;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -171,7 +172,7 @@ textarea {
 
 .grid-container-servicios {
   display: grid;
-  grid-template-columns: repeat(3, 3fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 3fr;
   column-gap: 10px;
   row-gap: 10px;
@@ -184,6 +185,7 @@ textarea {
 
 .video-service {
   border-top: solid 2px #010508;
+  width: 90%;
 }
 
 .presupuesto {
@@ -251,7 +253,6 @@ textarea {
 
 .portada-productos {
   display: flex;
-  flex: wrap;
   text-align: center;
   width: 350px;
   height: 350px;
@@ -311,6 +312,9 @@ footer {
   .card-container {
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -380,7 +384,7 @@ footer {
 @media only screen and (max-width: 700px) {
   .grid-servicios-1 {
     grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-end: 8;
     grid-row-start: 2;
     grid-row-end: 3;
   }
@@ -392,15 +396,15 @@ footer {
   .grid-servicios-3 {
     grid-column-start: 5;
     grid-column-end: 8;
-    grid-row: 2 3;
+    grid-row: 2 4;
   }
 }
 @media (max-width: 768px) {
   .container-fluid {
-    display: none;
+    grid-template-columns: 1fr;
   }
   .box-servicios {
-    width: 500px;
+    width: 90%;
     text-align: center;
   }
   .fotofrentetaller {
