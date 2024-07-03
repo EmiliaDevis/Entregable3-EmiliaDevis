@@ -113,8 +113,8 @@ main {
 }
 
 .card {
-  width: 300px;
-  border: 1px solid black;
+  width: 33%;
+  border: 3px solid black;
   padding: 5%;
   margin-right: 10px;
 }
@@ -315,11 +315,17 @@ footer {
     gap: 20px;
     padding-bottom: 30px;
   }
+  .card {
+    width: 90%;
+  }
 }
 @media (min-width: 481px) and (max-width: 768px) {
   .card-container {
     flex-direction: column;
     text-align: center;
+  }
+  .card {
+    width: 90%;
   }
 }
 @media (min-width: 601px) and (max-width: 767) {

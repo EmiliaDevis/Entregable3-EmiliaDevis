@@ -6,12 +6,18 @@
     gap: 20px;
     padding-bottom: 30px;
     }
+    .card {
+      width: 90%;
+    }
   }
   
   @media (min-width:481px) and (max-width:768px) {
     .card-container {
       flex-direction: column;
       text-align: center;
+    }
+    .card {
+      width: 90%;
     }
   }
   
