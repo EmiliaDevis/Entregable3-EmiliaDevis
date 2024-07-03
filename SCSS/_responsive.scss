@@ -60,12 +60,10 @@
       margin: 5px 0;
     }
     .fotofrentetaller {
-      width: 100%;
-      height: 100%;
+      @include tamano (100%, 100%) 
     }
     iframe {
-      width: 100%;
-      height: 100%;
+      @include tamano (100%, 100%) 
     }
 
   }
@@ -73,11 +71,19 @@
 
   @media (max-width:768px) {
     .portada-productos {
-     display: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
     }
     iframe {
-      width: 100%;
-      height: 100%;
+      @include tamano (100%, 100%) 
+    }
+    img {
+      width: 80%;
+      justify-content: center;
     }
   }
   
@@ -129,5 +135,9 @@
   .fotofrentetaller {
     width: 500px;
      height: 200px
+  }
+  .portada-productos {
+    flex-direction: column;
+
   }
 }
