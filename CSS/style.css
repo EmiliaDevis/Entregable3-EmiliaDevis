@@ -58,6 +58,9 @@ h1 {
 
 h2 {
   display: flex;
+  margin: 10px 0px;
+  border-bottom: solid 2px #080200;
+  justify-content: center;
 }
 
 h3 {
